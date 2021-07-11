@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <div class="header__logo">
+          <img src="./assets/logo.png" alt="" class="header__logo-img" />
+        </div>
+        <form action="" class="header__search">
+          <input
+            type="text"
+            class="header__input"
+            placeholder="Wyszukaj kurs"
+          />
+          <button class="header__searchBtn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <div class="header__menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav class="header__menu">
+          <ul>
+            <li>Start</li>
+            <li>Kursy</li>
+            <li>Korepetytorzy</li>
+            <li>Kontakt</li>
+            <li>Rejestracja</li>
+            <li>Logowanie</li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <h1>Jaki przedmiot Cię interesuje?</h1>
+        <div class="main__math subject">
+          <p>Matematyka</p>
+          <img src="./assets/math.png" alt="" class="main__math-img img" />
+          <div class="main__options">
+            <div class="basic"><p>Poziom podstawowy</p></div>
+            <div class="advanced"><p>Poziom rozszerzony</p></div>
+          </div>
+        </div>
+        <div class="main__polish subject">
+          <p>Język polski</p>
+          <img src="./assets/poland.png" alt="" class="main__polish-img img" />
+          <div class="main__options">
+            <div class="basic"><p>Poziom podstawowy</p></div>
+            <div class="advanced"><p>Poziom rozszerzony</p></div>
+          </div>
+        </div>
+        <div class="main__english subject">
+          <p>Język angielski</p>
+          <img src="./assets/GB.png" alt="" class="main__english-img img" />
+          <div class="main__options">
+            <div class="basic"><p>Poziom podstawowy</p></div>
+            <div class="advanced"><p>Poziom rozszerzony</p></div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__copyright">
+          <i class="far fa-copyright"></i>
+          <p>2021</p>
+        </div>
+        <div class="footer__socials">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+        </div>
+      </footer>
+      <div class="cover"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
